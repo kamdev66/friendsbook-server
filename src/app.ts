@@ -1,6 +1,6 @@
 import express, { Express } from 'express';
-import { FriendsBookServer } from './setupServer';
-import databaseConnection from './setupDatabase';
+import { FriendsBookServer } from '@root/setupServer';
+import databaseConnection from '@root/setupDatabase';
 import { config } from './config';
 
 class Application {
